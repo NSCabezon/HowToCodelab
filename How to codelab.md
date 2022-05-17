@@ -13,15 +13,30 @@ Feedback: https://nscabezon.com
 
 Duration: 00:01:30
 
-There are different ways to get claat, my choice was downloading the binary from the releases of [google's tool page](https://github.com/googlecodelabs/tools)
+There are different ways to get claat.
 
-But you can install it with go, with the following command:
+Option 1:
+
+Downloading the binary from the releases of [google's tool page](https://github.com/googlecodelabs/tools)
+
+Once we downloaded claat we can move it to the `bin` directory or directly use it in the same dir as the codelab we are going to create.
+
+Option 2: 
+
+Install it with go, with the following command:
 
 ```
 go install github.com/googlecodelabs/tools/claat@latest
 ```
 
-Once we downloaded claat we can move it to the `bin` directory or directly use it in the same dir as the codelab we are going to create.
+Then you'll need to export the paths:
+
+```
+export GOPATH=$HOME/Go
+export GOROOT=/usr/local/opt/go/libexec
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+```
 
 To make sure claat is installed properly we can type `claat` into the terminal.
 

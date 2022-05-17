@@ -1,0 +1,80 @@
+
+<!doctype html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <meta name="theme-color" content="#4F7DC9">
+  <meta charset="UTF-8">
+  <title>The codelab on how to codelab 😀</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://storage.googleapis.com/codelab-elements/codelab-elements.css">
+  <style>
+    .success {
+      color: #1e8e3e;
+    }
+    .error {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <google-codelab-analytics gaid="UA-49880327-14"></google-codelab-analytics>
+  <google-codelab codelab-gaid=""
+                  id="codelab_tutorial"
+                  title="The codelab on how to codelab 😀"
+                  environment="web"
+                  feedback-link="">
+    
+      <google-codelab-step label="Get claat" duration="2">
+        <p>There are different ways to get claat, my choice was downloading the binary from the releases of <a href="https://github.com/googlecodelabs/tools" target="_blank">google&#39;s tool page</a></p>
+<p>But you can install it with go, with the following command:</p>
+<pre><code>go install github.com/googlecodelabs/tools/claat@latest
+</code></pre>
+<p>Once we downloaded claat we can move it to the <code>bin</code> directory or directly use it in the same dir as the codelab we are going to create.</p>
+<p>To make sure claat is installed properly we can type <code>claat</code> into the terminal.</p>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Create a md file" duration="3">
+        <p>First thing we need to do is create a md file. Then modify it with the contents we want to have.</p>
+<p>The title can be set with one number sign <code>#</code>.</p>
+<p>Each headline marked with two number signs <code>##</code> will be a step in our codelab.</p>
+<p>Right under each step we can put a duration for each step. Ex, for one min it will look like this:</p>
+<pre><code>Duration: 00:01:00
+</code></pre>
+<p>We can also add info boxes.</p>
+<p class="image-container"><img alt="Info boxes" src="img/f3b9864d154fb0c9.png"></p>
+<p>For the info we have to note like this:</p>
+<pre><code>Negative
+: This will appear in a yellow info box.
+</code></pre>
+<p>and for the green one:</p>
+<pre><code>Positive
+: This will appear in a green info box.
+</code></pre>
+
+
+      </google-codelab-step>
+    
+      <google-codelab-step label="Generate codelab" duration="1">
+        <p>Once you have your codelab in place there&#39;s only one thing left and that is generate the html 😄.</p>
+<p>Go to the dir in which you&#39;re working and run the following command:</p>
+<pre><code>claat export name_of_the_md_file_to_export
+</code></pre>
+
+
+      </google-codelab-step>
+    
+  </google-codelab>
+
+  <script src="https://storage.googleapis.com/codelab-elements/native-shim.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/custom-elements.min.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/prettify.js"></script>
+  <script src="https://storage.googleapis.com/codelab-elements/codelab-elements.js"></script>
+  <script src="//support.google.com/inapp/api.js"></script>
+
+</body>
+</html>

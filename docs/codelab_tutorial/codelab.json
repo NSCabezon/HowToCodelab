@@ -1,0 +1,24 @@
+{
+  "environment": "web",
+  "format": "html",
+  "prefix": "https://storage.googleapis.com",
+  "mainga": "UA-49880327-14",
+  "updated": "2022-05-17T14:29:30+02:00",
+  "id": "codelab_tutorial",
+  "duration": 6,
+  "title": "The codelab on how to codelab 😀",
+  "summary": "How to codelab",
+  "source": "How to codelab.md",
+  "theme": "",
+  "status": [
+    "published"
+  ],
+  "category": [
+    "tutorial"
+  ],
+  "tags": [
+    "codelab",
+    "web"
+  ],
+  "url": "codelab_tutorial"
+}
